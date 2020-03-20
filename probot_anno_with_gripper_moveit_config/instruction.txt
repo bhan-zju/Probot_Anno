@@ -1,0 +1,17 @@
+##该功能包与probot_anno_moveit_config的区别是多了抓手
+##该功能包是机器人URDF模型经过Setup Assistant配置后生成的功能包
+
+#启动launch文件夹中的demo.launch可以进行一些运动操作
+#机械臂的配置以SRDF的格式储存在config文件夹下
+	#Probot_anno.srdf文件描述了规划组
+		#描述机械臂manipulator本身
+		#定义了两种关节角状态home和start
+		#机械臂的碰撞矩阵
+	#fake_controller.yaml文件，使得机械臂能够按照MoveIt!规划出来的轨迹运动
+	#joint_limits.yaml文件用于设置机器人运动关节的速度限位，可以配置每个关节是否有速度、加速度的限制
+	#kinematics.yaml文件配置了运动学求解器，包含四个方面
+		#运动学插件kinematics_solver: probot_anno_manipulator_kinematics/IKFastKinematicsPlugin
+		#逆运动学求解尝试次数kinematics_solver_attempts: 3
+		#存在冗余维度逆向运动学求解时的分辨率kinematics_solver_search_resolution: 0.005
+		#逆运动学求解超时设置kinematics_solver_timeout: 0.005
+	#ompl_planning.yaml文件是MoveIt!中默认的运动规划库
