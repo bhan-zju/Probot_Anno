@@ -1,0 +1,17 @@
+##该功能包用于机械臂的实际操作实验
+
+##在编译之前，在CMakeLists.txt中做了如下改动
+#第2行改为project(probot_real)（原来是project(probot_demo)）
+#第10行find_package()最后加入了probot_anno_ikfast_manipulator_plugin和std_msgs两个依赖
+#第111行catkin_package()的第三行也加入了probot_anno_ikfast_manipulator_plugin和std_msgs两个依赖
+#第127行将include文件加入路径
+#第160行处对需要编译的cpp文件设置编译规则
+#第213行install()里加入需要安装的可执行文件
+
+##package.xml文件中做了如下改动
+#第3和5行的probot_demo改为probot_real
+#第57、58行和67、68行建立probot_anno_ikfast_manipulator_plugin和std_msgs两个依赖
+
+##include文件夹下
+# Manipulator.hpp 和 Manipulator.cpp 是 机械臂 类型，包含了机械臂的DH参数以及正逆运动学的求解
+# treeNode.h 是搜索树上的 节点 类型，包含了一个节点的 索引号、父节点索引号 和 从根节点到该节点的代价
