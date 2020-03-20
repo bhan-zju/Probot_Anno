@@ -1,0 +1,5 @@
+##该功能包用于描述机械臂的URDF模型
+
+#urdf: 用于存放机器人模型的URDF或xacro文件
+#meshes: 用于放置URDF中引用的模型渲染文件，如kinect相机
+#launch: 用于保存相关启动文件
