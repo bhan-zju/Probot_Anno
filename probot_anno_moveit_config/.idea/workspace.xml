@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f6ce96b5-8959-4443-8dbd-daab44e73e16" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../probot_anno_with_gripper_moveit_config/config/probot_anno.srdf" beforeDir="false" afterPath="$PROJECT_DIR$/../probot_anno_with_gripper_moveit_config/config/probot_anno.srdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probot_anno_with_gripper_moveit_config/launch/planning_context.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../probot_anno_with_gripper_moveit_config/launch/planning_context.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probot_demo/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../probot_demo/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probot_demo/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../probot_demo/package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probot_demo/src/moveit_cartesian_demo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../probot_demo/src/moveit_cartesian_demo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probot_demo/src/moveit_collision_demo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../probot_demo/src/moveit_collision_demo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probot_demo/src/moveit_continue_trajectory_demo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../probot_demo/src/moveit_continue_trajectory_demo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probot_demo/src/moveit_fk_demo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../probot_demo/src/moveit_fk_demo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probot_demo/src/moveit_ik_demo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../probot_demo/src/moveit_ik_demo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probot_description/launch/PROBOT_Anno/view_probot_anno_with_gripper.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../probot_description/launch/PROBOT_Anno/view_probot_anno_with_gripper.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probot_description/urdf/PROBOT_Anno/gripper.xacro" beforeDir="false" afterPath="$PROJECT_DIR$/../probot_description/urdf/PROBOT_Anno/gripper.xacro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probot_description/urdf/PROBOT_Anno/probot_anno_with_gripper.xacro" beforeDir="false" afterPath="$PROJECT_DIR$/../probot_description/urdf/PROBOT_Anno/probot_anno_with_gripper.xacro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probot_description/urdf/PROBOT_Anno/sensors/camera.urdf.xacro" beforeDir="false" afterPath="$PROJECT_DIR$/../probot_description/urdf/PROBOT_Anno/sensors/camera.urdf.xacro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probot_gazebo/launch/probot_anno/probot_anno_gazebo_world.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../probot_gazebo/launch/probot_anno/probot_anno_gazebo_world.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probot_gazebo/launch/probot_anno_with_gripper/probot_anno_with_gripper_gazebo_world.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../probot_gazebo/launch/probot_anno_with_gripper/probot_anno_with_gripper_gazebo_world.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probot_gazebo/worlds/tableObj.world" beforeDir="false" afterPath="$PROJECT_DIR$/../probot_gazebo/worlds/tableObj.world" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probot_grasping/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../probot_grasping/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probot_grasping/include/probot_grasping/grasping_demo.h" beforeDir="false" afterPath="$PROJECT_DIR$/../probot_grasping/include/probot_grasping/grasping_demo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probot_grasping/include/probot_grasping/vision_manager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../probot_grasping/include/probot_grasping/vision_manager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probot_grasping/src/grasping_demo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../probot_grasping/src/grasping_demo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probot_grasping/src/vision_manager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../probot_grasping/src/vision_manager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probot_vision_pick/probot_pick_place/scripts/probot_sorting_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../probot_vision_pick/probot_pick_place/scripts/probot_sorting_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../probot_vision_pick/probot_pick_place/scripts/probot_sorting_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/../probot_vision_pick/probot_pick_place/scripts/probot_sorting_network.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1VBxcXzR6hc9Oy9w1TaZhu3JQl1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6ce96b5-8959-4443-8dbd-daab44e73e16" name="Default Changelist" comment="" />
+      <created>1576740368827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576740368827</updated>
+      <workItem from="1576740370267" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
