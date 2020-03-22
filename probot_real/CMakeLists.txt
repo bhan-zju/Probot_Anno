@@ -167,8 +167,6 @@ include_directories(${INCLUDE})
 # target_link_libraries(${PROJECT_NAME}_node
 #   ${catkin_LIBRARIES}
 # )
-add_executable(class_test src/class_test.cpp)
-target_link_libraries(class_test ${catkin_LIBRARIES})
 
 add_executable(ik src/ik.cpp)
 target_link_libraries(ik ${catkin_LIBRARIES})
