@@ -1,4 +1,5 @@
 // 求解逆运动学
+// 该代码文件是第一版，向控制器传输信号的方式现已不再适用
 
 #include <string>
 #include <ros/ros.h>
