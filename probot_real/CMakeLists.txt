@@ -18,7 +18,7 @@ find_package(catkin REQUIRED COMPONENTS
   probot_anno_ikfast_manipulator_plugin
   std_msgs
 )
-find_package(freenect2 REQUIRED)
+#find_package(freenect2 REQUIRED)
 #find_package(PCL 1.8 REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(Eigen3 REQUIRED)
@@ -186,8 +186,8 @@ target_link_libraries(grasp_test ${catkin_LIBRARIES})
 add_executable(collision_avoid src/collision_avoid.cpp)
 target_link_libraries(collision_avoid ${catkin_LIBRARIES})
 
-add_executable(continue_trajectory src/continue_trajectory.cpp)
-target_link_libraries(continue_trajectory ${catkin_LIBRARIES})
+#add_executable(continue_trajectory src/continue_trajectory.cpp)
+#target_link_libraries(continue_trajectory ${catkin_LIBRARIES})
 
 add_executable(rrt_star src/rrt_star.cpp)
 target_link_libraries(rrt_star ${catkin_LIBRARIES})
