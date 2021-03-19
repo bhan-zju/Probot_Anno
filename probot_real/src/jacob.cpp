@@ -7,7 +7,6 @@
 #include <moveit/move_group_interface/move_group_interface.h>
 #include "ikfast.h"
 #include "probot_anno_manipulator_ikfast_moveit_plugin.cpp"
-#include <urdf/model.h>
 #include <moveit/robot_model_loader/robot_model_loader.h>
 #include <moveit/robot_model/robot_model.h>
 #include <moveit/robot_state/robot_state.h>
@@ -38,6 +37,7 @@ int main(int argc, char **argv) {
     //创建一个订阅者Feedback_sub，接收话题"Feedback_chatter"，回调函数为Feed_back
     ros::Subscriber Feedback_sub = node_handle.subscribe("Feedback_chatter",100,Feed_back);
     //ros::Publisher reset_chatter_pub = node_handle.advertise<std_msgs::String>("reset_chatter", 1000);
+
     ros::AsyncSpinner spinner(1);
     spinner.start();
     
