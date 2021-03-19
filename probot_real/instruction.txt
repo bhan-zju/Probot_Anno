@@ -4,7 +4,7 @@
 #第2行改为project(probot_real)（原来是project(probot_demo)）
 #第10行find_package()最后加入了probot_anno_ikfast_manipulator_plugin和std_msgs两个依赖
 #第111行catkin_package()的第三行也加入了probot_anno_ikfast_manipulator_plugin和std_msgs两个依赖
-#第127行将include文件加入路径
+#第128行将include文件加入路径
 #第160行处对需要编译的cpp文件设置编译规则
 #第213行install()里加入需要安装的可执行文件
 
