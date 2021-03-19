@@ -1,0 +1,13 @@
+local_camera_publisher.py
+是gazebo仿真时用的，第一个版本，已弃用
+local_camera_pub_sim.py
+是gazebo仿真时用的，第二个版本
+
+img_proc.py
+是真机运行用的，第一个版本，已弃用
+local_camera_pub.py
+是真机运行用的，第二个版本
+local_camera_pub2.py
+是真机运行用的，第三个版本，可以检测任意四边形角点，不用外接矩形
+
+这三个文件都是发布图像特征信息
